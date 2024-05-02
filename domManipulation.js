@@ -20,7 +20,12 @@ let row1 = document.querySelector(".row-1");
 
 // 6. Set the styling of `row1` to have a font color of white.
 
-
+example1.style.backgroundColor="black";
+pink.style.backgroundColor="pink";
+green.style.backgroundColor="green";
+blue.style.backgroundColor="blue";
+lightGreen.style.backgroundColor="lightGreen";
+row1.style.color="white";
 
 // CHALLENGE #2 - style the image
 
@@ -38,3 +43,8 @@ let imageButton = document.querySelector(".image-button");
 //   - solid
 //   - hex color #42068c
 //   - 5 pixels
+
+imageButton.addEventListener('dblclick', function(){
+  image.style.width="300px";
+  image.style.border="solid #42068c 5px";
+})
